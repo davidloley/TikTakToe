@@ -177,7 +177,7 @@ function reset()
     }
 
     document.getElementById("status").innerHTML  = "Bereit zu spielen?";
-    document.getElementById("card").style.backgroundColor = "lightskyblue"
+    document.getElementById("card").style.backgroundColor = "lightskyblue";
 
 
     isGameRunning = true;
