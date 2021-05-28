@@ -141,7 +141,7 @@ function checkForWinner()
 function setWinner(winner, winningLine)
 {
     isGameRunning = false;
-    document.   
+    
     if (winner == "o")
     {
         highlightWinner(winningLine);
