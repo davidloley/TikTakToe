@@ -116,7 +116,7 @@ function checkForWinner()
     }
     else if (fields[2] == "o" && fields[4] == "o" && fields[6] == "o")
     {
-        setWinner("o", [0,4,6]);
+        setWinner("o", [2,4,6]);
         return true;
     }
     else if 
