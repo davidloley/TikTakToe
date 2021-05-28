@@ -1,0 +1,67 @@
+body{
+    font-family: 'Odibee Sans', cursive;
+}
+
+.centered{
+    text-align: center;
+    font-size: 55px;
+}
+
+#icon {
+    margin-bottom: 45px;
+}
+
+.container{
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+.row{
+    height: 100px;
+}
+
+.col{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.col:hover{
+    background-color: lightgray !important;
+}
+
+.border-b{
+    border-bottom: 5px solid black;
+}
+
+.border-r{
+    border-right: 5px solid black;
+}
+
+.card {
+    background-color: lightskyblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
+TikTakToe
+#reset {
+    font-size: 45px;
+    position: fixed;
+    right: 3px;
+    bottom: 20px;
+}
